@@ -16,3 +16,4 @@ Steps:
 9. Make columns titled Day and then year to document the games played in each year
 10. Makes columns titled Y/N and then year to document whether the player got a hit that day
 
+# Visualization
