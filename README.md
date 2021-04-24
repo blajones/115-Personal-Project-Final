@@ -17,7 +17,21 @@ Steps:
 10. Makes columns titled Y/N and then year to document whether the player got a hit that day
 
 # Visualization
+These first visualizations show the amount of hits Carlos Correa got in each game. I could have also made these in a bar graph form.
+![image](https://user-images.githubusercontent.com/79551443/115945162-3efc9d80-a46f-11eb-8677-fa10640a2f48.png)
 ![image](https://user-images.githubusercontent.com/79551443/115945137-170d3a00-a46f-11eb-9d82-5fdc976f34bc.png)
+![image](https://user-images.githubusercontent.com/79551443/115945171-4a4fc900-a46f-11eb-9a03-a43fda632032.png)
+![image](https://user-images.githubusercontent.com/79551443/115945181-55a2f480-a46f-11eb-9d53-4eee2dc0913f.png)
+![image](https://user-images.githubusercontent.com/79551443/115945191-5d629900-a46f-11eb-874f-e61436fdab18.png)
+![image](https://user-images.githubusercontent.com/79551443/115945197-63f11080-a46f-11eb-9b07-15ebc30d5126.png)
+
+This next line graph shows if Correa got a hit (y/n column) in the game he played in. 2020 is the clearest visualization. As you can see, Correa usually went on streaks of three games with a hit, and then had one or two games in between without a hit. He also went on two very large hitting streaks to begin the year.
+![image](https://user-images.githubusercontent.com/79551443/115945258-baf6e580-a46f-11eb-937a-98cfbbdc1f9f.png)
+
+These visualizations are a matrix of first the amount of hits per game and then whether he got a hit or not. There is not really a correlation between the amounts of hits per game for each year. There is a stronger correlation when comparing whether he got a hit in a game or not.
+![image](https://user-images.githubusercontent.com/79551443/115945350-36589700-a470-11eb-9ff2-d14db26a9665.png)
+![image](https://user-images.githubusercontent.com/79551443/115945356-41132c00-a470-11eb-9bae-8ac38fadbf80.png)
+
 
 # Analysis
 For one of my analysis, I used a box plot. I used a box plot to find the outlier in At Bats for every year. Sometimes in baseball, players can have six or more at bats, which is rare, and sometimes they can have none because they got walked a lot or hit by a pitch. My objective was to find these outliers and match them with the hits, or lack there of that day. In my analysis, I found that the mean number of at bats for Correa was usually around four. In 2020, it was three. In every year, he had at least one game with 6 at bats OR none at all. When he had five or more at bats, he usually had one or more hits in a game. The less amount of at bats, the less chance for hits. The 2017 box plot was the most interesting to me. The plot was almost perfect, with outliers at one and six. The mean looks like it is directly four and the quartiles looked symmetrical. The quartiles were almost perfectly on two and five. To me, this means this was a balanced year for either Correa or the Astros. Because of this balance, I believe it would have been the best year to find a pattern in hits for Carlos Correa.
