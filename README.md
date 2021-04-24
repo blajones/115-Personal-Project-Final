@@ -18,6 +18,7 @@ Steps:
 
 # Visualization
 These first visualizations show the amount of hits Carlos Correa got in each game. I could have also made these in a bar graph form.
+
 ![image](https://user-images.githubusercontent.com/79551443/115945162-3efc9d80-a46f-11eb-8677-fa10640a2f48.png)
 ![image](https://user-images.githubusercontent.com/79551443/115945137-170d3a00-a46f-11eb-9d82-5fdc976f34bc.png)
 ![image](https://user-images.githubusercontent.com/79551443/115945171-4a4fc900-a46f-11eb-9a03-a43fda632032.png)
@@ -26,9 +27,11 @@ These first visualizations show the amount of hits Carlos Correa got in each gam
 ![image](https://user-images.githubusercontent.com/79551443/115945197-63f11080-a46f-11eb-9b07-15ebc30d5126.png)
 
 This next line graph shows if Correa got a hit (y/n column) in the game he played in. 2020 is the clearest visualization. As you can see, Correa usually went on streaks of three games with a hit, and then had one or two games in between without a hit. He also went on two very large hitting streaks to begin the year.
+
 ![image](https://user-images.githubusercontent.com/79551443/115945258-baf6e580-a46f-11eb-937a-98cfbbdc1f9f.png)
 
 These visualizations are a matrix of first the amount of hits per game and then whether he got a hit or not. There is not really a correlation between the amounts of hits per game for each year. There is a stronger correlation when comparing whether he got a hit in a game or not.
+
 ![image](https://user-images.githubusercontent.com/79551443/115945350-36589700-a470-11eb-9ff2-d14db26a9665.png)
 ![image](https://user-images.githubusercontent.com/79551443/115945356-41132c00-a470-11eb-9bae-8ac38fadbf80.png)
 
