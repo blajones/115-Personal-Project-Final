@@ -1,0 +1,101 @@
+---
+title: "Correa Batting"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r read}
+bat<-read.csv("Batting Logs.csv")
+bat
+
+
+plot(x = bat$Day, y = bat$H...2019, type = "p",xlab = "Day", ylab = "Hit Count", main = "Hits by day - All", col = "Blue")
+lines(bat$H...2020, type = "p", col = "orange")
+lines(bat$H...2018, type = "p", col = "green")
+lines(bat$H..2017, type = "p", col = "yellow")
+lines(bat$H...2016, type = "p", col = "red")
+lines(bat$H...2015, type = "p", col = "purple")
+
+
+plot(x = bat$Day...19, y = bat$H...2019, type = "o",xlab = "Day", ylab = "Hit Count", main = "Hits by day - 2019", col = "Blue")
+
+plot(x = bat$Day...20, y = bat$H...2020, type = "o",xlab  = "Day", ylab = "Hit Count", main = "Hits by day - 2020", col = "orange")
+
+plot(x = bat$Day...18, y = bat$H...2018, type = "o",xlab = "Day", ylab = "Hit Count", main = "Hits by day - 2018", col = "green")
+
+plot(x = bat$Day...17, y = bat$H..2017, type = "o",xlab = "Day", ylab = "Hit Count", main = "Hits by day - 2017", col = "yellow")
+
+plot(x = bat$Day, y = bat$H...2016, type = "o",xlab = "Day", ylab = "Hit Count", main = "Hits by day - 2016", col = "red")
+
+plot(x = bat$ï..Day...15, y = bat$H...2015, type = "o",xlab = "Day", ylab = "Hit Count", main = "Hits by day - 2015", col = "purple")
+
+```
+```{r pairs}
+library("GGally")
+ggpairs(bat, columns = c(1, 4, 8, 12, 16, 20, 24), title = "Hits per game")
+
+ggpairs(bat, columns = c(5, 9, 13, 17, 21, 25), title = "hits")
+```
+
+
+
+```{r y/n}
+plot(x = bat$Day, y = bat$Y.N.19, type = "p",xlab = "Day", ylab = "Safely Hit", main = "Hits by day - All", col = "Blue")
+lines(bat$Y.N.20, type = "p", col = "orange")
+lines(bat$Y.N.18, type = "p", col = "green")
+lines(bat$Y.N.17, type = "p", col = "yellow")
+lines(bat$Y.N.16, type = "p", col = "red")
+lines(bat$Y.N.15, type = "p", col = "purple")
+
+plot(x = bat$Day...20, y = bat$Y.N.20, type = "p",xlab = "Day", ylab = "Safely Hit", main = "Hits by day - 2020", col = "orange")
+
+plot(x = bat$Day...19, y = bat$Y.N.19, type = "p",xlab = "Day", ylab = "Safely Hit", main = "Hits by day - 2019", col = "blue")
+
+plot(x = bat$Day...18, y = bat$Y.N.18, type = "p",xlab = "Day", ylab = "Safely Hit", main = "Hits by day 2018", col = "green")
+
+plot(x = bat$Day...17, y = bat$Y.N.17, type = "p",xlab = "Day", ylab = "Safely Hit", main = "Hits by day - 2017", col = "yellow")
+
+plot(x = bat$Day, y = bat$Y.N.16, type = "p",xlab = "Day", ylab = "Safely Hit", main = "Hits by day  - 2016", col = "red")
+
+plot(x = bat$ï..Day...15, y = bat$Y.N.15, type = "p",xlab = "Day", ylab = "Safely Hit", main = "Hits by day - 2015", col = "purple")
+```
+
+
+
+```{r boxplot}
+boxplot(data = bat, x = bat$AB...2020, ylab = "At Bats", main = "At Bats per Game in 2020")
+
+boxplot(data = bat, x = bat$Ab...2019, ylab = "At Bats", main = "At Bats per Game in 2019")
+
+boxplot(data = bat, x = bat$AB..2018, ylab = "At Bats", main = "At Bats per Game in 2018")
+
+boxplot(data = bat, x = bat$AB...2017, ylab = "At Bats", main = "At Bats per Game in 2017")
+
+boxplot(data = bat, x = bat$AB...2016, ylab = "At Bats", main = "At Bats per Game in 2016")
+
+boxplot(data = bat, x = bat$AB...2015, ylab = "At Bats", main = "At Bats per Game in 2015")
+```
